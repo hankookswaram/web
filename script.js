@@ -23,4 +23,4 @@ document.getElementById("input").addEventListener("keyup",function(event) {
     if (event.key == "Enter") {
         addItem();
     }
-}
+});
