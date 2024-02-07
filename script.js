@@ -19,7 +19,7 @@ function addItem() {
     }
 }
 
-document.getElementById("input").addEventListener("keyup",function(event)) {
+document.getElementById("input").addEventListener("keyup",function(event) {
     if (event.key == "Enter") {
         addItem();
     }
