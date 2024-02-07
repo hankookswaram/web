@@ -19,6 +19,11 @@ function addItem() {
     }
 }
 
+function reset() {
+    var checklistField = document.getElementById("checklist");
+    checklistField.innerHTML = "";
+}
+
 document.getElementById("input").addEventListener("keyup",function(event) {
     if (event.key == "Enter") {
         addItem();
