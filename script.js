@@ -20,5 +20,7 @@ function addItem() {
 }
 
 document.getElementById("input").addEventListener("keyup",function(event)) {
-    if (event.key == "Enter") addItem();
+    if (event.key == "Enter") {
+        addItem();
+    }
 }
